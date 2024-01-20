@@ -1,8 +1,8 @@
 //---
-//title: Siren Team 203
+//title: S.I.R.E.N Team 203
 //---
 
-# Siren Team 203
+# S.I.R.E.N Team 203
 
 ## Class EGR 304 
 
