@@ -20,7 +20,8 @@ Our Teammates
 
 ## Background
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
+![Mighty Jaiks-Wluff](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/1825a01e-1bfe-4ae2-abb8-79d82c0c96d4)
+
 
 [link to background](/background)
 
