@@ -2,18 +2,18 @@
 //title: Siren Team 203
 //---
 
-# Siren Team 203
+# (ASU)Siren Team 203
 
 ## Class EGR 304 
 
-**Bold Text**
-Our Teammates
-**_Bold and Italic Text_**
+**Our Teammates**
 
 1. Ryan
-1. Kyle
-1. Payton
-1. Abel
+2. Kyle
+3. Payton
+4. Abel
+**_Dr.Kelly_**
+
 
 
 
@@ -27,6 +27,7 @@ Our Teammates
 
 
 ## Conclusions and Future Work
+Our prepartation date will be around 4/26
 
 ## External Links
 
@@ -34,3 +35,5 @@ Our Teammates
 
 
 ## References
+
+
