@@ -49,7 +49,7 @@ Appendex
 ...
 
 ## Design Ideation
-[Design Ideation](DesignIdeation.md)
+[Team Organization](TeamOrganization.md)
 
 ## User Needs, Benchmarking, and Requirements
 [User Needs, Benchmarking, and Requirements](User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.md)
