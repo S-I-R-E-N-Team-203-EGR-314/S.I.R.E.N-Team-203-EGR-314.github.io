@@ -40,9 +40,7 @@ Our prepartation date will be around 4/26
 
 
 Appendex 
-p1.md
-
-pic/READ ME
+S-I-R-E-N-Team-203-EGR-314/subpages/DesignIdeation.md
 
 ## References
 
