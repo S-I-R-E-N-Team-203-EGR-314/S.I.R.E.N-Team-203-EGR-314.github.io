@@ -26,3 +26,21 @@ Product #2:
 Benetech 8-in-1 Multifunctional Anemometer, Portable Weather Station, Digital Wind Speed Meter, Handheld, Air Flow Teste for HVAC Outdoor Sailing Flying Surfing Drone Golf Shooting
 
 Photo:
+
+![product2](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/0a51d278bdc087e4878521c2de9cd56947cca4de/pic/Product2.JPG)
+
+Notable Features: Measuring wind speed, temperature, humidity, wind chill, dew point, atmospheric pressure, altitude, and illuminationMeasuring wind speed, temperature, humidity, wind chill, dew point, atmospheric pressure, altitude, illumination, Battery Powered, chart mode, wind chill indication, viewing max/min/average/current data values, manual or automatic data logging capability can store up to 200 data, Auto Off & Low Battery indicator-chart mode, wind chill indication, viewing max/min/average/current data values, manual or automatic data logging capability can store up to 200 data, Auto Off & Low Battery indicator
+
+Price:$39.99
+Manufacturer: Benetech
+Link: Amazon
+Search Keywords: portable weather station
+User Needs Statements: The Device needs to be easy to operate, accurate, reasonably priced, Convert measuring systems, and have a rechargeable or simple-to-exchange battery.
+
+
+
+Product #3:
+NOAA Weather AM FM Radio Portable Battery Operated by 2 AA Batteries with Stereo Earphones, LCD Display Digital Alarm Clock Sleep Timer, Best Reception, Built-in Speaker Best Sound Quality(Black)
+Photo:
+
+
