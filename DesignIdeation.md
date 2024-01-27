@@ -39,7 +39,7 @@ Concept 1:
 Name: Molle Backpack Weather Device
 Description: It’s a device that can be attached to both a tree and a backpack that provides weather readings to the user and their company.
 
-Visual Representation:
+Visual Representation by Ryan:
 
 ![image](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/a882a2e2-9052-454d-81ae-29b5da7ce870)
 
@@ -52,7 +52,7 @@ Name: The Handheld S.I.R.E.N.
 
 Description: Small and compact this device can be clipped onto a backpack so the weather can be checked at any time while also working as a weather alarm for the nights.
 
-Visual Representation:
+Visual Representation by Payton:
 
 ![image](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/7a3927c4-b192-462a-9c58-635aec687ea6)
 
@@ -67,7 +67,7 @@ Weather Alert with extensions
 Description:
 This concept features an extending pole that houses both the wind speed sensor and the direction sensor. The goal with the extending pole is to allow the sensors to be more airborn to gather accurate data. While doing so, it stores the data it gathers within a SD card. Once the device comes within wifi range, it will dump the data it collected onto a linked website.
 
-Visual Representation:
+Visual Representation by Payton:
 
 ![image](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/5eb18e65-c904-4a72-8c27-c3f9c00b9043)
 
