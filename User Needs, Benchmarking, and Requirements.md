@@ -1,6 +1,7 @@
 ## User Needs, Benchmarking, and Requirements
 
-When it came to the developments of the user needs and the benchmarking, we as a team researched many products with similar functionality. From the selection our group was able to select and filter user needs from selected reviews of the products. Afterwards, we were able to measure the user needs against what we wanted to create for our product's design.
+We adopted a structured approach to organize and prioritize the user needs
+
 
 I. Voice of the Customer Benchmarking
 Five Existing Commercial Products
@@ -58,3 +59,7 @@ Link: Amazon
 Search Keywords: Weather Alert Stationather alert station
 
 User Needs Statements: The device needs to have a better power storage unit to allow longer product usage. On top of this, the casing of the product needs to be durable enough to keep not only parts secured but batteries and itself secured.
+
+## Conclusion
+
+When it came to the developments of the user needs and the benchmarking, we as a team researched many products with similar functionality. From the selection our group was able to select and filter user needs from selected reviews of the products. Afterwards, we were able to measure the user needs against what we wanted to create for our product's design.
