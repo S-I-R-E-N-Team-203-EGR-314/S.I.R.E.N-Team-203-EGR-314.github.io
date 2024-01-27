@@ -25,6 +25,7 @@ Manufacturer: Sainlogic
 Model #: FT0835-plus
 
 Link: [Amazon](https://www.amazon.com/Sainlogic-Professional-WiFi-Weather-Station-with-Outdoor-Sensor-Internet-Wireless-Weather-Station-with-Rain-Gauge-Weather-Forecast-Wind-Gauge-Wunderground/dp/B08LL4PXWM/ref=sr_1_1_sspa?crid=2B2HJ7Q5DF77X&keywords=portable%2Bweather%2Bstation&qid=1705345588&sprefix=portable%2Bwea%2Caps%2C118&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
+
 Keywords: Weather Station
 
 
