@@ -41,6 +41,16 @@ User Needs Statements: The Device needs to be easy to operate, accurate, reasona
 
 Product #3:
 NOAA Weather AM FM Radio Portable Battery Operated by 2 AA Batteries with Stereo Earphones, LCD Display Digital Alarm Clock Sleep Timer, Best Reception, Built-in Speaker Best Sound Quality(Black)
+
 Photo:
 
+![product3](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/9b49e5de4b4b08e8de0f6f00bef15c930e26f92b/pic/Product3.JPG)
 
+Notable Features: Access FM and AM radio, Uses a normal alarm system as well as one that plays the radio. Has an audio port to allow headsets or earplugs to jack into. Allows customers to favorite certain radio sessions.
+
+Price: $19.59
+Manufacturer: Lijiani
+Link: Amazon
+Search Keywords: Weather Alert Stationather alert station
+
+User Needs Statements: The device needs to have a better power storage unit to allow longer product usage. On top of this, the casing of the product needs to be durable enough to keep not only parts secured but batteries and itself secured.
