@@ -1,7 +1,6 @@
 Team 203
 
-S.I.R.E.N.
-
+## S.I.R.E.N.
 (System for Immediate Response and Environmental Notifications)
 
 Jan, 18, 2024
