@@ -33,10 +33,6 @@ Our prepartation date will be around 4/26
 
 ## External Links
 
-[[example link to idealab](https://idealab.asu.edu)]
-
-
-
 [[Link to our Google drive](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing)]
 
 
