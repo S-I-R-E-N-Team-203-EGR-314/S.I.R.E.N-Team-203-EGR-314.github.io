@@ -26,11 +26,22 @@ Our video
 
 ## Background
 
-[link to background](background.md)
+[link to background](/background)
 
 
 ## Conclusions and Future Work
-Our prepartation date will be around 4/26
+
+We plan to design the circuit requirements
+
+Then design the frame a housing
+
+order parts to test proof of concept
+
+Then if that works we will order parts and program while we wait
+
+After that we will assemble it and test
+
+We should have all prepartations done between 4/20-4/26
 
 ## External Links
 
