@@ -40,7 +40,9 @@ Our prepartation date will be around 4/26
 
 
 Appendex 
-S-I-R-E-N-Team-203-EGR-314/subpages/DesignIdeation.md
+
+
+<link rel= "DesignIdeation" href = "DesignIdeation.md">
 
 ## References
 
