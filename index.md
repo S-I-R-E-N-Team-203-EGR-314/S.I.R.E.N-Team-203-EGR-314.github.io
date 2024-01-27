@@ -26,10 +26,7 @@ Our video
 
 ## Background
 
-
-
-
-[link to background](/background)
+[link to background](background.md)
 
 
 ## Conclusions and Future Work
@@ -45,9 +42,6 @@ Our prepartation date will be around 4/26
 
 Appendex 
 
-
-...
-
 ## Team organization
 [Team Organization](TeamOrganization.md)
 
@@ -60,10 +54,5 @@ Appendex
 ## Design Ideation
 [Design Ideation](DesignIdeation.md)
 
-
-...
-
-
-## References
 
 
