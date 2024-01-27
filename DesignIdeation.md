@@ -74,6 +74,9 @@ Visual Representation by Payton:
 Key Features Highlighted:
 The Pole will extend 6 ft into the air to allow both sensors to collect the necessary data. The screen attached to the hub will report what the sensors read.
 
+
+Just a note: Our all our are methods of brainstorming work.
+
 ## Team Roles for this
 
 Payton & Kyle: Finalized the design
