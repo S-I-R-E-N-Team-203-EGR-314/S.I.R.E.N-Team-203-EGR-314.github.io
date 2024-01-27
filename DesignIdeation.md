@@ -6,6 +6,10 @@ S.I.R.E.N.
 
 Jan, 18, 2024
 
+## Motavation
+When it came to the design concepts for our product we wanted to use every user need we collected as well as ideas each member generated to create each concept sketch of our product. When it comes to the sketches, we knew that each sketch needed our specific parts: wind speed, direction, and atmospheric sensors. Over all, we all agreed that the concepts we made are good designs that we all can create.
+
+
 I. Idea Generation
 
 
