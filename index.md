@@ -42,6 +42,7 @@ Our prepartation date will be around 4/26
 Appendex 
 p1.md
 
+pic/READ ME
 
 ## References
 
