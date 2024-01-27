@@ -4,7 +4,9 @@ When it came to the developments of the user needs and the benchmarking, we as a
 
 I. Voice of the Customer Benchmarking
 Five Existing Commercial Products
-Product #1: 
+
+## Product #1: 
+
 Sainlogic Professional WiFi Weather Station with Outdoor Sensor, Internet Wireless Weather Station with Rain Gauge, Weather Forecast, Wind Gauge, Wunderground, Black
 Photo:
 
@@ -22,7 +24,8 @@ Review Analysis:
 
 User Needs Statements: The weather station should be easy to set up, connect seamlessly to Wi-Fi and the app, provide accurate and reliable information, and offer solar-powered functionality with effective battery recharge. Users also expect a positive overall experience and helpful customer service.
 
-Product #2:
+## Product #2:
+
 Benetech 8-in-1 Multifunctional Anemometer, Portable Weather Station, Digital Wind Speed Meter, Handheld, Air Flow Teste for HVAC Outdoor Sailing Flying Surfing Drone Golf Shooting
 
 Photo:
@@ -39,7 +42,8 @@ User Needs Statements: The Device needs to be easy to operate, accurate, reasona
 
 
 
-Product #3:
+## Product #3:
+
 NOAA Weather AM FM Radio Portable Battery Operated by 2 AA Batteries with Stereo Earphones, LCD Display Digital Alarm Clock Sleep Timer, Best Reception, Built-in Speaker Best Sound Quality(Black)
 
 Photo:
