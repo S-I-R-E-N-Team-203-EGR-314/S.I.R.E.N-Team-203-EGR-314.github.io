@@ -13,3 +13,4 @@ I. Idea Generation
 
 Figure 1 “Unsorted Ideas”
 
+![stick2](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b0a64ec9-a65d-41c1-962d-c7e85c1e7af6)
