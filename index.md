@@ -42,9 +42,9 @@ Our prepartation date will be around 4/26
 Appendex 
 
 
-https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/92188279f6b98c0164fea9c008447500aa727bbf/subpages/DesignIdeation.html
+[[Design Ideation](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/92188279f6b98c0164fea9c008447500aa727bbf/subpages/DesignIdeation.html)]
 
-<link rel= "DesignIdeation" href = "DesignIdeation.md">
+<link rel= "DesignIdeation" href = "DesignIdeation.md">  
 
 ## References
 
