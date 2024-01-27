@@ -46,9 +46,19 @@ Our prepartation date will be around 4/26
 Appendex 
 
 
-[[Design Ideation]([https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/92188279f6b98c0164fea9c008447500aa727bbf/DesignIdeation.md](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/0dcbbda640ca2afed63d17e60f8675a696e2553a/DesignIdeation.md)https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/0dcbbda640ca2afed63d17e60f8675a696e2553a/DesignIdeation.md)]
+...
 
-<link rel= "DesignIdeation" href = "DesignIdeation.md">  
+## Design Ideation
+[Design Ideation](DesignIdeation.md)
+
+## User Needs, Benchmarking, and Requirements
+[User Needs, Benchmarking, and Requirements](User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.md)
+
+## Video
+[Video](video.md)
+
+...
+
 
 ## References
 
