@@ -15,12 +15,19 @@ Photo:
 
 
 Notable Features: The weather station has a professional and easy-to-read LCD color display, it enables data transmission with the worldwide weather network.  The outdoor sensor is a 10-in-1 device that includes components such as a rain funnel, solar panel, transmission module, wind vane, high-speed anemometer, and more. It transmits real-time information about temperature, humidity, air pressure, wind speed, wind direction, precipitation amount, and other relevant data.
+
 Price: $169
+
 Vendor: Amazon
+
 Manufacturer: Sainlogic
+
 Model #: FT0835-plus
-Link: Amazon
+
+Link: [Amazon](https://www.amazon.com/Sainlogic-Professional-WiFi-Weather-Station-with-Outdoor-Sensor-Internet-Wireless-Weather-Station-with-Rain-Gauge-Weather-Forecast-Wind-Gauge-Wunderground/dp/B08LL4PXWM/ref=sr_1_1_sspa?crid=2B2HJ7Q5DF77X&keywords=portable%2Bweather%2Bstation&qid=1705345588&sprefix=portable%2Bwea%2Caps%2C118&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1)
 Keywords: Weather Station
+
+
 Review Analysis:
 
 User Needs Statements: The weather station should be easy to set up, connect seamlessly to Wi-Fi and the app, provide accurate and reliable information, and offer solar-powered functionality with effective battery recharge. Users also expect a positive overall experience and helpful customer service.
@@ -35,10 +42,14 @@ Photo:
 
 Notable Features: Measuring wind speed, temperature, humidity, wind chill, dew point, atmospheric pressure, altitude, and illuminationMeasuring wind speed, temperature, humidity, wind chill, dew point, atmospheric pressure, altitude, illumination, Battery Powered, chart mode, wind chill indication, viewing max/min/average/current data values, manual or automatic data logging capability can store up to 200 data, Auto Off & Low Battery indicator-chart mode, wind chill indication, viewing max/min/average/current data values, manual or automatic data logging capability can store up to 200 data, Auto Off & Low Battery indicator
 
-Price:$39.99
+Price: $39.99
+
 Manufacturer: Benetech
-Link: Amazon
+
+Link: [Amazon](https://www.amazon.com/Benetech-Multi-Purpose-Anemometer/dp/B08QFSWQ3T/ref=sr_1_5?crid=2B2HJ7Q5DF77X&keywords=portable+weather+station&qid=1705345588&sprefix=portable+wea%2Caps%2C118&sr=8-5)
+
 Search Keywords: portable weather station
+
 User Needs Statements: The Device needs to be easy to operate, accurate, reasonably priced, Convert measuring systems, and have a rechargeable or simple-to-exchange battery.
 
 
@@ -54,8 +65,11 @@ Photo:
 Notable Features: Access FM and AM radio, Uses a normal alarm system as well as one that plays the radio. Has an audio port to allow headsets or earplugs to jack into. Allows customers to favorite certain radio sessions.
 
 Price: $19.59
+
 Manufacturer: Lijiani
-Link: Amazon
+
+Link: [Amazon](https://www.amazon.com/Weather-Portable-Operated-Batteries-Earphone/dp/B08H53N8Z3/?_encoding=UTF8&pd_rd_w=zKTyZ&content-id=amzn1.sym.35cab78c-35e3-4fc1-aab0-27eaa6c86063%3Aamzn1.symc.e5c80209-769f-4ade-a325-2eaec14b8e0e&pf_rd_p=35cab78c-35e3-4fc1-aab0-27eaa6c86063&pf_rd_r=3Y34DJ6XSZCNYT28ZK8R&pd_rd_wg=USbFc&pd_rd_r=4c2bda66-0021-47e5-a6b8-b07fb37fbf31&ref_=pd_gw_ci_mcx_mr_hp_atf_m&th=1)
+
 Search Keywords: Weather Alert Stationather alert station
 
 User Needs Statements: The device needs to have a better power storage unit to allow longer product usage. On top of this, the casing of the product needs to be durable enough to keep not only parts secured but batteries and itself secured.
