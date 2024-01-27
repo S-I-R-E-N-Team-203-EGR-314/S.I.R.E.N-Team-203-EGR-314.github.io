@@ -48,7 +48,7 @@ Appendex
 
 ...
 
-## Design Ideation
+## Team organization
 [Team Organization](TeamOrganization.md)
 
 ## User Needs, Benchmarking, and Requirements
@@ -56,6 +56,10 @@ Appendex
 
 ## Video
 [Video](video.md)
+
+## Design Ideation
+[Design Ideation](DesignIdeation.md)
+
 
 ...
 
