@@ -1,7 +1,6 @@
 ## User Needs, Benchmarking, and Requirements
 
-We adopted a structured approach to organize and prioritize the user needs
-
+We adopted a structured approach to organize and prioritize the user needs in order to transform user needs into tangible product requirements
 
 I. Voice of the Customer Benchmarking
 Five Existing Commercial Products
