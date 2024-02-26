@@ -8,18 +8,64 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
         }
         iframe {
+            width: 90%;
+            height: 500px; /* Adjusted to fit design */
+            border: 1px solid #ccc;
+            margin: 20px 0;
+        }
+        .navigation {
+            padding: 20px 0;
+            background: #f8f8f8;
+        }
+        .navigation a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
             width: 100%;
-            height: 500px; /* You can adjust this value to fit your design */
-            border: none;
         }
     </style>
 </head>
 <body>
-    <h1>SIREN Block Diagram</h1>
+    <header>
+        <div>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
+        </div>
+    </header>
+    <div class="navigation">
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/components.html">Components</a>
+        <!-- Add more navigation links as needed -->
+    </div>
+    <h1>Block Diagram</h1>
     <iframe src="pic/Team%20203%20Block%20Diagram-314.pdf" title="Block Diagram"></iframe>
     <p>There are 4 subsystems: Temperature sensor, Light Sensor, Siren, and the Microcontroller/Wifi.</p>
+    <footer>
+        <p>&copy; 2024 S.I.R.E.N Team 203 - EGR 314. All rights reserved.</p>
+    </footer>
 </body>
 </html>
