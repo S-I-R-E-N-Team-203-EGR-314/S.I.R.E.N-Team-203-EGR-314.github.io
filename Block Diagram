@@ -1,26 +1,2 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block Diagram</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>Block Diagram</h1>
-    <img src="pic/FireAlarm.png" alt="S.I.R.E.N. Block Diagram">
-    <p>There are 4 subsystems: Temperature sensor, Light Sensor, Siren, and the Microcontroller/Wifi.</p>
-</body>
-</html>
-
 ![Team 203 Block Diagram-314 drawio](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157081885/aeeb0671-c8bb-47b5-8e98-d9caccd8ebd1)
+
