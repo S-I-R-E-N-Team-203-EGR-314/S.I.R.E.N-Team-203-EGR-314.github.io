@@ -1,2 +1,33 @@
-![Team 203 Block Diagram-314 drawio](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157081885/aeeb0671-c8bb-47b5-8e98-d9caccd8ebd1)
+## S.I.R.E.N.
+(System for Immediate Response and Environmental Notifications)
+
+Jan, 18, 2024
+
+## Motavation
+When it came to the design concepts for our product we wanted to use every user need we collected as well as ideas each member generated to create each concept sketch of our product. When it comes to the sketches, we knew that each sketch needed our specific parts: wind speed, direction, and atmospheric sensors. Over all, we all agreed that the concepts we made are good designs that we all can create.
+
+
+I. Idea Generation
+
+
+![stick1](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/d214aa7c7b0850ce36a2d7efeff501148499e54a/pic/stick1.JPG)
+
+Figure 1 “Unsorted Ideas”
+
+2. Sorting, Ranking, and Grouping of Concepts
+   
+Methods Used for Sorting/Ranking:
+
+Hardware, Design, Features, and Data were our sorting methods.
+
+![image](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/7c903b66-4d94-4c92-a062-29033987cbfc)
+
+
+Design Concepts Developed:
+Shared Concepts: 
+Raid siren
+Wind Speed and Direction Sensor
+Atmospheric pressure sensor
+Rechargeable Battery 
+Stores all data on an SD card and dumps it to the website once connected to the internet
 
