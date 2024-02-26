@@ -35,6 +35,10 @@ Here's our block diagram
 [Block Diagram](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html)
 
 
+## Build of materials (BOM)
+Here's a list of materials and parts that we'll need
+
+[BOM](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
 
 
 
@@ -54,14 +58,14 @@ We should have all prepartations done between 4/20-4/26
 
 ## External Links
 
-[[Link to our Google drive](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing)]
+[Link to our Google drive(https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing)]
 
 
 ## Our choosen Design
 
 Here's our selected deign. 
 
-[[Selected Design](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html)]
+[Selected Design(https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html)]
 
 
 
