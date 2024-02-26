@@ -28,6 +28,15 @@ Our video
 
 [link to background](/background)
 
+## Block Diagram 
+
+Here's our block diagram
+
+[Block Diagram](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html)
+
+
+
+
 
 ## Conclusions and Future Work
 
@@ -48,7 +57,11 @@ We should have all prepartations done between 4/20-4/26
 [[Link to our Google drive](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing)]
 
 
-[[TestLink](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html)]
+## Our choosen Design
+
+Here's our selected deign. 
+
+[[Selected Design](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html)]
 
 
 
@@ -63,7 +76,11 @@ Appendex
 ## Video
 [Video](video.md)
 
+
 ## Design Ideation
+
+Here's our design ideation. 
+
 [Design Ideation](DesignIdeation.md)
 
 
