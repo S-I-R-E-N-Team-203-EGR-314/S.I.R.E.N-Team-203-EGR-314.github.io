@@ -25,12 +25,6 @@ A brief overview of our project in action, showcasing the highlights and key fun
 
 ## Project Insights
 
-### Background
-
-Gain insights into the project's inception, the problem it aims to solve, and the impact it seeks to make.
-
-[Learn more about our background](/background)
-
 ### Block Diagram 
 
 Visual representation of our system's architecture, illustrating how each component interacts within the system.
