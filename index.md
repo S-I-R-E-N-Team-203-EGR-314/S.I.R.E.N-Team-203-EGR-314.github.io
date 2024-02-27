@@ -21,7 +21,8 @@ title: Siren Team 203
 
 A brief overview of our project in action, showcasing the highlights and key functionalities of our siren system.
 
-[![Watch the video](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/blob/e6246104951143625f1e380537cdbe546bc80f54/pic/FireAlarm.png)](https://www.youtube.com/watch?v=YAdvBfmHnMA)
+[![Watch the video](S.I.R.E.N-Team-203-EGR-314.github.io/pic
+/FireAlarm.png)](https://www.youtube.com/watch?v=YAdvBfmHnMA)
 
 ## Project Insights
 
