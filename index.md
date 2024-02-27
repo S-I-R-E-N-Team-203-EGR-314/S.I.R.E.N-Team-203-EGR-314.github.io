@@ -60,7 +60,7 @@ Detailing the rationale behind our selected design and how it aligns with our pr
 
 Please find the software proposal document linked below:
 
-[Software Proposal PDF](https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/files/14412616/Software.Proposal.PDF)
+[Software Proposal PDF](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software Proposal.md)
 
 ### Team Organization
 
