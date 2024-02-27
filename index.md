@@ -32,7 +32,7 @@ Visual representation of our system's architecture, illustrating how each compon
 
 [View our Block Diagram](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html)
 
-### Bill of Materials (BOM)
+### Component Selections
 
 A comprehensive list of all the materials and components required for our project, including details for procurement.
 
