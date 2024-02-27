@@ -79,7 +79,7 @@ An overview of our project's hardware layout, including pin and component arrang
 
 Our approach to software development, including diagrams and function declarations.
 
-[Software Proposal PDF](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.md)
+[Software Proposal PDF](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html)
 
 ## Conclusion and Moving Forward
 
