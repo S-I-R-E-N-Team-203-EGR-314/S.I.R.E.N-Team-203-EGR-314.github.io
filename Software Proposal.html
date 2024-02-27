@@ -17,19 +17,23 @@
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
         }
         h1 {
             color: #444;
         }
-        .pdf-link {
-            display: block;
-            margin-top: 20px;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 15px;
-            text-decoration: none;
-            border-radius: 5px;
-            text-align: center;
+        .iframe-container {
+            overflow: hidden;
+            padding-top: 56.25%;
+            position: relative;
+        }
+        .iframe-container iframe {
+            border: 0;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
         }
         .return-home {
             display: block;
@@ -47,8 +51,10 @@
 
 <div class="container">
     <h1>Software Proposal</h1>
-    <!-- PDF Link -->
-    <a href="pic/Software.Proposal.PDF" class="pdf-link" target="_blank">View Software Proposal</a>
+    <!-- PDF Embed -->
+    <div class="iframe-container">
+        <iframe src="pic/Software.Proposal.PDF" type="application/pdf"></iframe>
+    </div>
     
     <!-- Return to Home Page Link -->
     <a href="index.html" class="return-home">Return to Home Page</a>
