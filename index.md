@@ -63,6 +63,12 @@ An exhaustive list of components required for our project, including procurement
 
 [Explore our List of parts](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
 
+### Microcontroller Selection
+
+A detailed analysis on the choice of microcontroller for our project, considering factors such as performance, cost, and compatibility.
+
+[Microcontroller Selection](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html)
+
 ### Hardware Proposal
 
 An overview of our project's hardware layout, including pin and component arrangements.
