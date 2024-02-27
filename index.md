@@ -1,5 +1,5 @@
 ---
-title: Siren Team 203
+Fire Siren: Siren Team 203
 ---
 
 # (ASU) Siren Team 203
@@ -38,7 +38,14 @@ A comprehensive list of all the materials and components required for our projec
 
 [Explore our List of parts](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
 
-## Project Development and Conclusions
+## Hardware Proposal
+
+A This is a layout of our pins and componets. 
+
+https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html
+
+
+
 
 ### Conclusions and Future Work
 
