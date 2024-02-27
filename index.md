@@ -36,7 +36,7 @@ Visual representation of our system's architecture, illustrating how each compon
 
 A comprehensive list of all the materials and components required for our project, including details for procurement.
 
-[Explore our BOM](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
+[Explore our List of parts](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
 
 ## Project Development and Conclusions
 
