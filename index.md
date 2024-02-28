@@ -16,7 +16,8 @@ Welcome to the official website of Siren Team 203 for the EGR 304 class. Our pro
 
 ### Quick Links
 
-- [**Project Overview Video**](https://www.youtube.com/watch?v=YAdvBfmHnMA) - A brief introduction showcasing key features and functionalities of our project.
+[![Project Overview Video](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png)](https://www.youtube.com/watch?v=YAdvBfmHnMA)
+- **Watch our Project Overview Video** - Click on the image above to watch a brief introduction showcasing the key features and functionalities of our project.
 
 - [**Team Organization**](TeamOrganization.md) - Insights into our team's structure and task distribution.
 
@@ -46,3 +47,6 @@ Welcome to the official website of Siren Team 203 for the EGR 304 class. Our pro
 
 - [**Visit our Google Drive**](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing) - Access further documentation and resources related to our project.
 
+---
+
+This template ensures that the video link is prominently displayed through an image, making it more engaging for visitors. By clicking on the image, users will be directed to the video, enhancing the interactive experience of your project's homepage.
