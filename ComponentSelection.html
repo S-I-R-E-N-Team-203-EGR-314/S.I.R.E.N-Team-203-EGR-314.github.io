@@ -78,42 +78,79 @@
     <p>Jan, 18, 2024</p>
 
     <!-- Project Components List -->
+    <h2>Project Components</h2>
     <table>
         <tr>
             <th>Component</th>
-            <th>Description</th>
             <th>Quantity</th>
-            <th>Unit Price</th>
-            <th>Total Price</th>
+            <th>Unit Prototype Cost</th>
+            <th>Total Prototype Cost</th>
+            <th>Manufacturer</th>
+            <th>Part #</th>
             <th>Link</th>
         </tr>
         <tr>
-            <td>ESP32</td>
-            <td>Microcontroller Module</td>
+            <td>Motor</td>
             <td>1</td>
-            <td>$7.00</td>
-            <td>$7.00</td>
-            <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D-4MB/9356998">Product Link</a></td>
+            <td>$3.61</td>
+            <td>$3.61</td>
+            <td>Vybronics Inc</td>
+            <td>VQ4TL2BQ380001</td>
+            <td><a href="https://www.digikey.com/en/products/detail/vybronics-inc/VQ4TL2BQ380001/7732314">Digikey</a></td>
         </tr>
-        <!-- Add more rows as needed -->
+        <tr>
+            <td>Motor Driver</td>
+            <td>1</td>
+            <td>$4.00</td>
+            <td>$4.00</td>
+            <td>Infineon Technologies</td>
+            <td>IFX9201SGAUMA1</td>
+            <td><a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">Digikey</a></td>
+        </tr>
+        <tr>
+            <td>Temperature Sensor</td>
+            <td>1</td>
+            <td>$1.15</td>
+            <td>$1.15</td>
+            <td>Microchip Technology</td>
+            <td>TC74A4-3.3VCTTR</td>
+            <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3-3VCTTR/443268">Digikey</a></td>
+        </tr>
+        <!-- Add more rows based on your project components -->
     </table>
 
+    <!-- Power Budget -->
     <h2>Power Budget</h2>
-    <!-- Power Budget Table -->
     <table>
         <tr>
             <th>Component</th>
-            <th>Voltage (V)</th>
-            <th>Current (A)</th>
-            <th>Power (W)</th>
+            <th>Quantity</th>
+            <th>Voltage Requirement (V)</th>
+            <th>Current Draw (A)</th>
+            <th>Power Consumption (W)</th>
         </tr>
         <tr>
-            <td>ESP32</td>
-            <td>3.3</td>
-            <td>0.24</td>
-            <td>0.792</td>
+            <td>Motor</td>
+            <td>1</td>
+            <td>2</td>
+            <td>0.13</td>
+            <td>0.26</td>
         </tr>
-        <!-- Add more rows as needed -->
+        <tr>
+            <td>Motor Driver</td>
+            <td>1</td>
+            <td>3.3</td>
+            <td>0.05</td>
+            <td>0.165</td>
+        </tr>
+        <tr>
+            <td>Temperature Sensor</td>
+            <td>1</td>
+            <td>3.3</td>
+            <td>0.5</td>
+            <td>1.65</td>
+        </tr>
+        <!-- Add more rows based on your power budget calculations -->
     </table>
 
     <footer>
