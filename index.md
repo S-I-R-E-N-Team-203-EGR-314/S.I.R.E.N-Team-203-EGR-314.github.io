@@ -1,94 +1,48 @@
----
-Fire Siren: Siren Team 203
----
+# Siren Team 203 - Fire Siren System Project
+## EGR 304 - Embedded System Design
 
-# (ASU) Siren Team 203
+Welcome to the official website of Siren Team 203 for the EGR 304 class. Our project is dedicated to designing an efficient and reliable fire siren system to enhance safety measures in emergency situations.
 
-## Class EGR 304 
+### Meet Our Team
 
-Welcome to the official website of Siren Team 203 for the EGR 304 class. Our project focuses on designing an efficient and reliable fire siren system to enhance safety measures in emergency situations.
+- **Ryan**
+- **Kyle**
+- **Payton**
+- **Abel**
 
-### Our Teammates
+### Our Mentor
 
-- Ryan
-- Kyle
-- Payton
-- Abel
+- **Dr. Kelly**
 
-### Our Professor
+### Quick Links
 
-- **_Dr.Kelly_**
+- [**Project Overview Video**](https://www.youtube.com/watch?v=YAdvBfmHnMA) - A brief introduction showcasing key features and functionalities of our project.
 
-### Project Video Overview
+- [**Team Organization**](TeamOrganization.md) - Insights into our team's structure and task distribution.
 
-A brief introduction to our project, showcasing its key features and functionalities.
+- [**User Needs and Requirements**](User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.md) - Analyzing user needs, benchmarking existing solutions, and establishing project requirements.
 
-[![Watch the video](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png)](https://www.youtube.com/watch?v=YAdvBfmHnMA)
+- [**Design Ideation**](DesignIdeation.md) - The creative process behind our design decisions, from initial concepts to final selection.
 
-### Team Organization
+### Project Insights
 
-Insights into our team's structure and task distribution.
+- [**Our Chosen Design**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html) - Detailing the rationale behind our selected design.
 
-[Read about our Team Organization](TeamOrganization.md)
+- [**Block Diagram**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html) - A visual representation of our system's architecture.
 
-### User Needs, Benchmarking, and Requirements
+- [**Component Selections**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html) - An exhaustive list of components required for our project.
 
-Analyzing user needs, benchmarking existing solutions, and establishing project requirements.
+- [**Microcontroller Selection**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html) - Analysis on the choice of microcontroller.
 
-[View our analysis](User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.md)
+- [**Hardware Proposal**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html) - Overview of our project's hardware layout.
 
-### Design Ideation
+- [**Software Proposal Document**](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html) - Our approach to software development.
 
-The creative process behind our design decisions, from initial concepts to final selection.
+### Conclusion and Moving Forward
 
-[Explore our Design Ideation](DesignIdeation.md)
+- **Conclusions and Future Work** - Discussing our project's next phases, including design iterations and testing plans.
 
-## Our Project Insights
+### External Links and Resources
 
-### Our Chosen Design
+- [**Visit our Google Drive**](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing) - Access further documentation and resources related to our project.
 
-Detailing the rationale behind our selected design and its alignment with our project goals and user needs.
-
-[Discover our Selected Design](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html)
-
-### Block Diagram
-
-A visual representation of our system's architecture, illustrating the interaction between components.
-
-[View our Block Diagram](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html)
-
-### Component Selections
-
-An exhaustive list of components required for our project, including procurement details.
-
-[Explore our List of parts](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html)
-
-### Microcontroller Selection
-
-A detailed analysis on the choice of microcontroller for our project, considering factors such as performance, cost, and compatibility.
-
-[Microcontroller Selection](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html)
-
-### Hardware Proposal
-
-An overview of our project's hardware layout, including pin and component arrangements.
-
-[Hardware Proposal](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html)
-
-### Software Proposal Document
-
-Our approach to software development, including diagrams and function declarations.
-
-[Software Proposal PDF](https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html)
-
-## Conclusion and Moving Forward
-
-### Conclusions and Future Work
-
-Discussing our project's next phases, including design iterations and testing plans.
-
-## External Links and Resources
-
-Access further documentation and resources related to our project.
-
-[Visit our Google Drive](https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing)
