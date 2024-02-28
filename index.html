@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             padding: 20px;
         }
-        .button {
+        .button, .video-button:hover {
             display: inline-block;
             background-color: #007BFF;
             color: white;
@@ -22,21 +22,15 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-        .button:hover {
+        .button:hover, .video-button:hover {
             background-color: #0056b3;
         }
-        img.video-button {
-            width: 200px; /* Adjust as needed */
-            cursor: pointer;
-            border-radius: 5px;
-            transition: transform 0.3s ease;
+        img.video-button, img {
+            max-width: 100%;
+            height: auto;
         }
         img.video-button:hover {
             transform: scale(1.05);
-        }
-        img {
-            max-width: 100%;
-            height: auto;
         }
     </style>
 </head>
@@ -53,22 +47,40 @@
         <li>Abel</li>
     </ul>
     
-    <h3>Our Mentor</h3>
+    <h3>Our Teacher</h3>
     <p><strong>Dr. Kelly</strong></p>
     
     <h3>Quick Links</h3>
     <p><a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
         <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Watch our Project Overview Video" class="video-button">
     </a></p>
-    <p><a href="TeamOrganization.md" class="button">Team Organization</a></p>
-    <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.md" class="button">User Needs and Requirements</a></p>
-    <p><a href="DesignIdeation.md" class="button">Design Ideation</a></p>
-    
+
+    <!-- Team Charter Section -->
+    <section>
+        <h3>Team Charter</h3>
+        <p><strong>Charter</strong></p>
+        <ol>
+            <li>Each team member designs a functional Subsystem that completes their specific goal.</li>
+            <li>Creating a functional weather alert device that can:
+                <ul>
+                    <li>Measure Temperature.</li>
+                    <li>Measure Lumens</li>
+                    <li>Alert the user a fire is happening.</li>
+                    <li>Connect to the internet to upload collected data and change settings.</li>
+                </ul>
+            </li>
+            <li>Have a functioning prototype by April 26th.</li>
+        </ol>
+
+        <p><strong>Mission Statement</strong></p>
+        <p>Our team is tasked with creating a device to alert users of a wildfire before it becomes a danger.</p>
+
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Charter Image" style="max-width: 100%; height: auto;">
+
+        <p>Connective tissue: Each team member agrees to this above document.</p>
+    </section>
+
     <h3>Project Insights</h3>
     <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
     <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html" class="button">Software Proposal Document</a></p>
-    
+    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N
