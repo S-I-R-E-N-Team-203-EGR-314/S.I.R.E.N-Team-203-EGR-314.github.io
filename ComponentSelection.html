@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Project Components</title>
+    <title>Project Components & Power Budget</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         table { border-collapse: collapse; width: 100%; }
@@ -13,9 +13,9 @@
 </head>
 <body>
 
-<h2>Project Components List</h2>
+<h2>Project Components List & Power Budget</h2>
 
-<p>This document outlines the selected components for a robotics project, including sensors, motor, motor driver, and a microcontroller module.</p>
+<p>This document outlines the selected components for a robotics project, including sensors, motor, motor driver, and a microcontroller module, along with a power budget for each component.</p>
 
 <h3>Selected Components</h3>
 <table>
@@ -69,9 +69,32 @@
     </tr>
 </table>
 
-<div class="main-link">
-    <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Back to Main Page</a>
-</div>
-
-</body>
-</html>
+<h3>Power Budget</h3>
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Voltage (V)</th>
+        <th>Current (A)</th>
+        <th>Power (W)</th>
+    </tr>
+    <tr>
+        <td>ESP32</td>
+        <td>3.3</td>
+        <td>0.24</td>
+        <td>0.792</td>
+    </tr>
+    <tr>
+        <td>Temperature Sensor</td>
+        <td>3.3</td>
+        <td>0.005</td>
+        <td>0.0165</td>
+    </tr>
+    <tr>
+        <td>Light Sensor</td>
+        <td>3.3</td>
+        <td>0.02</td>
+        <td>0.33 (Total for 5)</td>
+    </tr>
+    <tr>
+        <td>Motor Driver</td>
+        <td>12</td>
