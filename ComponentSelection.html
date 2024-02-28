@@ -1,160 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team 203 - S.I.R.E.N. Project Components & Power Budget</title>
+    <title>Project Components & Power Budget</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { text-align: left; padding: 8px; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        th { background-color: #4CAF50; color: white; }
+        .main-link { margin-top: 20px; }
+        .header { 
+            background-color: #D3D3D3; /* Light Grey */
+            padding: 10px 0;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            margin-bottom: 20px;
         }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
-        }
-        header a {
-            color: #fff;
+        .header a {
             text-decoration: none;
-            text-transform: uppercase;
+            color: black;
             font-size: 16px;
-        }
-        .navigation {
-            padding: 20px 0;
-            background: #f8f8f8;
-        }
-        .navigation a {
-            margin: 0 15px;
-            color: #333;
-            text-decoration: none;
-        }
-        table {
-            margin-left: auto;
-            margin-right: auto;
-            border-collapse: collapse;
-            width: 80%;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
+            padding: 10px 20px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: white;
         }
     </style>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
-        </div>
-    </header>
-    <div class="navigation">
-        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/design-ideation.html">Design Ideation</a>
-        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/user-needs.html">User Needs</a>
-    </div>
-    <h1>Team 203 - S.I.R.E.N. Project Components & Power Budget</h1>
-    <p>(System for Immediate Response and Environmental Notifications)</p>
-    <p>Jan, 18, 2024</p>
 
-    <!-- Project Components List -->
-    <h2>Project Components</h2>
-    <table>
-        <tr>
-            <th>Component</th>
-            <th>Quantity</th>
-            <th>Unit Prototype Cost</th>
-            <th>Total Prototype Cost</th>
-            <th>Manufacturer</th>
-            <th>Part #</th>
-            <th>Link</th>
-        </tr>
-        <tr>
-            <td>Motor</td>
-            <td>1</td>
-            <td>$3.61</td>
-            <td>$3.61</td>
-            <td>Vybronics Inc</td>
-            <td>VQ4TL2BQ380001</td>
-            <td><a href="https://www.digikey.com/en/products/detail/vybronics-inc/VQ4TL2BQ380001/7732314">Digikey</a></td>
-        </tr>
-        <tr>
-            <td>Motor Driver</td>
-            <td>1</td>
-            <td>$4.00</td>
-            <td>$4.00</td>
-            <td>Infineon Technologies</td>
-            <td>IFX9201SGAUMA1</td>
-            <td><a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542">Digikey</a></td>
-        </tr>
-        <tr>
-            <td>Temperature Sensor</td>
-            <td>1</td>
-            <td>$1.15</td>
-            <td>$1.15</td>
-            <td>Microchip Technology</td>
-            <td>TC74A4-3.3VCTTR</td>
-            <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3-3VCTTR/443268">Digikey</a></td>
-        </tr>
-        <!-- Add more rows based on your project components -->
-    </table>
+<div class="header">
+    <a href="/home">Home</a>
+</div>
 
-    <!-- Power Budget -->
-    <h2>Power Budget</h2>
-    <table>
-        <tr>
-            <th>Component</th>
-            <th>Quantity</th>
-            <th>Voltage Requirement (V)</th>
-            <th>Current Draw (A)</th>
-            <th>Power Consumption (W)</th>
-        </tr>
-        <tr>
-            <td>Motor</td>
-            <td>1</td>
-            <td>2</td>
-            <td>0.13</td>
-            <td>0.26</td>
-        </tr>
-        <tr>
-            <td>Motor Driver</td>
-            <td>1</td>
-            <td>3.3</td>
-            <td>0.05</td>
-            <td>0.165</td>
-        </tr>
-        <tr>
-            <td>Temperature Sensor</td>
-            <td>1</td>
-            <td>3.3</td>
-            <td>0.5</td>
-            <td>1.65</td>
-        </tr>
-        <!-- Add more rows based on your power budget calculations -->
-    </table>
+<h2>Project Components List & Power Budget</h2>
 
-    <footer>
-        <p>&copy; 2024 S.I.R.E.N Team 203 - EGR 314. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+<p>This document outlines the selected components for a robotics project, including sensors, motor, motor driver, and a microcontroller module, along with a power budget for each component.</p>
+
+<h3>Selected Components</h3>
+<table>
+    <tr>
+        <th>Component</th>
+        <th>Description</th>
+        <th>Quantity</th>
+        <th>Unit Price</th>
+        <th>Total Price</th>
+        <th>Link</th>
+    </tr>
+    <tr>
+        <td>ESP32</td>
+        <td>Microcontroller Module</td>
+        <td>1</td>
+        <td>$7.00</td>
+        <td>$7.00</td>
+        <td><a href="https://www.digikey.com/en/products/detail/espressif-systems/ESP32-WROOM-32D-4MB/9356998">Product Link</a></td>
+    </tr>
+    <tr>
+        <td>Temperature Sensor (TC74A4-3.3VCTCT-ND)</td>
+        <td>Measures ambient temperature</td>
+        <td>1</td>
+        <td>$0.75</td>
+        <td>$0.75</td>
+        <td><a href="https://www.digikey.com/en/products/detail/microchip-technology/TC74A4-3-3VCT/820404">Product Link</a></td>
+    </tr>
+    <tr>
+        <td>Light Sensor (160-2160-1-ND)</td>
+        <td>Reads lumens for a project</td>
+        <td>5</td>
+        <td>$1.02</td>
+        <td>$5.10</td>
+        <td><a href="https://www.digikey.com/en/products/detail/lite-on-inc/LTR-559ALS-01/5279776">Product Link</a></td>
+    </tr>
+    <tr>
+        <td>Motor Driver (IFX9201SGAUMA1CT-ND)</td>
+        <td>Controls motor for Siren</td>
+        <td>4</td>
+        <td>$4.00</td>
+        <td>$16.00</td>
+        <td><a href="https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SG/2712462">Product Link</a></td>
+    </tr>
+    <tr>
+        <td>Motor (1670-VQ4TL2BQ380001-ND)</td>
+        <td>Motor for project</td>
+        <td>2</td>
+        <td>$3.61</td>
+        <td>$7.22</td>
+        <td><a href="https://www.digikey.com/en/products/detail/vybronics/VQ4TL2BQ380001/13778136">Product Link</a></td>
+    </tr>
+</table>
+
+<h3>Power Budget</h3>
+<table>
+    <tr>
+        <th>Component</th>
+        <th
