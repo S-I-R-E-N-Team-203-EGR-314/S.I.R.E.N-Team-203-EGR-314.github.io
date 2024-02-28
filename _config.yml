@@ -1,0 +1,15 @@
+title: Siren Team 203 - Fire Siren System Project
+email: pschmid4@asu.edu
+description: >
+  This is the official website of Siren Team 203 for the EGR 304 class, dedicated to designing an efficient and reliable fire siren system.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+theme: minimal
+# Additional settings
+logo: "pic/SirenLogo-removebg-preview.png" # This line is for your reference; used in the HTML customization
+
+# Plugins (optional, example: jekyll-feed for generating an Atom feed)
+plugins:
+  - jekyll-feed
