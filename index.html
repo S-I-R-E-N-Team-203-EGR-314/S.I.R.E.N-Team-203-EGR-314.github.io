@@ -4,74 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siren Team 203 - Fire Siren System Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Roboto', sans-serif;
             padding: 20px;
-            background-color: #f5f5dc; /* Light tan background */
+            background-color: #F5F5DC; /* Light tan background */
+            color: #333;
         }
-        .button, .video-button:hover {
-            display: inline-block;
+        header, footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        header img.logo, footer img.logo {
+            max-height: 60px; /* Adjust for a more subtle logo presence */
+        }
+        nav a, .button {
+            color: #007BFF;
+            text-decoration: none;
+            padding: 8px 15px;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover, .button:hover {
+            color: #0056b3;
+        }
+        .button {
             background-color: #007BFF;
             color: white;
-            padding: 15px 25px;
-            text-align: center;
-            text-decoration: none;
-            font-size: 16px;
-            margin: 4px 2px;
+            border: none;
             cursor: pointer;
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-        .button:hover, .video-button:hover {
+        .button:hover {
             background-color: #0056b3;
         }
-        img.video-button, img {
-            max-width: 100%;
-            height: auto;
+        .card {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
         }
-        img.video-button:hover {
-            transform: scale(1.05);
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 0.8rem;
         }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-bottom: 20px;
-        }
-        header img.logo {
-            max-height: 200px; /* Adjust based on your preference */
+        @media screen and (max-width: 768px) {
+            header, footer {
+                flex-direction: column;
+                text-align: center;
+            }
+            nav a {
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <div>
-            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">
-                <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="logo">
-            </a>
-        </div>
-        <div>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="logo">
+        </a>
+        <nav>
             <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
-        </div>
+        </nav>
     </header>
+
     <h1>Siren Team 203 - Fire Siren System Project</h1>
     <h2>EGR 304 - Embedded System Design</h2>
-    <p>Welcome to the official website of Siren Team 203 for the EGR 304 class. Our project is dedicated to designing an efficient and reliable fire siren system to enhance safety measures in emergency situations.</p>
-    
-    <h3>Meet Our Team</h3>
-    <ul>
-        <li>Ryan</li>
-        <li>Kyle</li>
-        <li>Payton</li>
-        <li>Abel</li>
-    </ul>
-    
-    <h3>Our Teacher</h3>
-    <p><strong>Dr. Kelly</strong></p>
-   
-    <!-- Team Charter Section -->
-    <section>
+    <div class="card">
+        <p>Welcome to the official website of Siren Team 203 for the EGR 304 class. Our project is dedicated to designing an efficient and reliable fire siren system to enhance safety measures in emergency situations.</p>
+    </div>
+
+    <div class="card">
+        <h3>Meet Our Team</h3>
+        <ul>
+            <li>Ryan</li>
+            <li>Kyle</li>
+            <li>Payton</li>
+            <li>Abel</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h3>Our Teacher</h3>
+        <p><strong>Dr. Kelly</strong></p>
+    </div>
+
+    <div class="card">
         <h3>Team Charter</h3>
         <p><strong>Charter</strong></p>
         <ol>
@@ -86,34 +111,43 @@
             </li>
             <li>Have a functioning prototype by April 26th.</li>
         </ol>
-
         <p><strong>Mission Statement</strong></p>
         <p>Our team is tasked with providing a device that uses digital technology to provide users with valuable sensory information in an emergency simulation.</p>
-
         <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Charter Image" style="max-width: 100%; height: auto;">
-
         <p>Connective tissue: Each team member agrees to this above document.</p>
-    </section>
-    <h3>Quick Links</h3>
-    <p><a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Watch our Project Overview Video" class="video-button">
-    </a></p>
+    </div>
 
-    <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
-    <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
-    
-    <h3>Project Insights</h3>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html" class="button">Software Proposal Document</a></p>
+    <div class="card">
+        <h3>Quick Links</h3>
+        <p><a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Watch our Project Overview Video" class="video-button">
+        </a></p>
+        <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
+        <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
+    </div>
 
-    <h3>Conclusion and Moving Forward</h3>
-    <p>Conclusions and Future Work - Discussing our project's next phases, including design iterations and testing plans.</p>
-    
-    <h3>External Links and Resources</h3>
-    <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit our Google Drive</a></p>
+    <div class="card">
+        <h3>Project Insights</h3>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html" class="button">Software Proposal Document</a></p>
+    </div>
+
+    <div class="card">
+        <h3>Conclusion and Moving Forward</h3>
+        <p>Conclusions and Future Work - Discussing our project's next phases, including design iterations and testing plans.</p>
+    </div>
+
+    <div class="card">
+        <h3>External Links and Resources</h3>
+        <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit our Google Drive</a></p>
+    </div>
+
+    <footer>
+        <p>© 2024 Siren Team 203. All rights reserved.</p>
+    </footer>
 </body>
 </html>
