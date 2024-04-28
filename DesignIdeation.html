@@ -4,59 +4,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S.I.R.E.N. Design Concepts</title>
-   <style>
-    body {
-        font-family: Arial, sans-serif;
-        padding: 20px;
-        background-color: #f5f5dc; /* Light tan background */
-    }
-    .button, .video-button:hover {
-        display: inline-block;
-        background-color: #007BFF;
-        color: white;
-        padding: 15px 25px;
-        text-align: center;
-        text-decoration: none;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-        border-radius: 5px;
-        transition: background-color 0.3s ease;
-    }
-    .button:hover, .video-button:hover {
-        background-color: #0056b3;
-    }
-    img.video-button, img {
-        max-width: 100%;
-        height: auto;
-    }
-    img.video-button:hover {
-        transform: scale(1.05);
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding-bottom: 20px;
-    }
-    header img.logo {
-        max-height: 200px; /* Adjust based on your preference */
-    }
-    .home-button {
-        display: inline-block;
-        padding: 10px;
-        background-color: #007bff;
-        color: white;
-        text-decoration: none;
-        font-size: 16px;
-        margin-bottom: 20px;
-    }
-</style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Light tan background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333; /* Dark background for contrast */
+            color: white;
+            text-align: center;
+            padding: 10px; /* Smaller padding for full-width effect */
+            border-bottom: #0779e4 3px solid;
+            width: 100%; /* Ensures header spans full width */
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            display: inline-block; /* Ensures it spans the full width */
+        }
+        .content {
+            background-color: white; /* White background for content box */
+            border-radius: 10px; /* Rounded edges for a softer look */
+            padding: 20px; /* Padding for spacing within the box */
+            margin: 20px; /* Margins to ensure it doesn't touch the edges */
+        }
+        footer {
+            background: #333; /* Matches the header */
+            text-align: center; /* Aligns content to the center */
+            padding: 10px; /* Padding for full-width effect */
+            position: relative;
+            bottom: 0;
+            width: 100%; /* Ensures the footer spans the entire width */
+        }
+        .button, .video-button:hover {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover, .video-button:hover {
+            background-color: #0056b3;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto; /* Centers the image */
+        }
+    </style>
 </head>
 <body>
-    <div class="top-bar">
-        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" class = "home-button">Home</a>
-    </div>
+    <header>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
+    </header>
 
     <div class="content">
         <h1>S.I.R.E.N. Project by Team 203</h1>
@@ -64,32 +75,35 @@
         <p>January 18, 2024</p>
 
         <h2>Project Motivation</h2>
-        <p>Our design process was inspired by the collective needs of our users and the innovative ideas from our team members. Each concept sketch incorporates essential features: wind speed, direction, and atmospheric sensors. We believe these designs effectively meet our project goals and are within our capability to create.</p>
+        <p>Our design process was driven by the collective needs of users and innovative ideas from our team members. Each concept sketch integrates vital features like wind speed, direction, and atmospheric sensors. These designs address project goals while remaining within our technical capability.</p>
 
         <h2>Idea Generation</h2>
-        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/raw/d214aa7c7b0850ce36a2d7efeff501148499e54a/pic/stick1.JPG" alt="Unsorted Ideas">
-        <p>Figure 1: Unsorted Ideas</p>
+        <p>Each team member was responsible for creating 25 ideas, totaling 100. Due to some repetition, we ended up with about 70 usable ideas. These ideas were inspired by a prior assignment that focused on researching user needs.</p>
+
+        <p>We eventually sorted these ideas into four groups: hardware, design, features, and data. This approach allowed us to determine core functionalities and additional potential features.</p>
+
+        <p>Some common features across all designs include an integrated raid siren for immediate alerts, rechargeable batteries for sustainability, and data storage that can be uploaded when connected to Wi-Fi.</p>
 
         <h2>Concept Development</h2>
-        <p>We applied the following criteria for sorting, ranking, and grouping our concepts:</p>
+        <p>To develop the concepts, we applied several criteria for sorting, ranking, and grouping:</p>
         <ul>
             <li>Hardware specifications</li>
             <li>Design aesthetics</li>
             <li>Functional features</li>
             <li>Data management capabilities</li>
         </ul>
-        <p>Our consensus led to the development of shared concepts that include:</p>
+        <p>From this consensus, we developed shared concepts, such as:</p>
         <ul>
             <li>An integrated raid siren for immediate alerts</li>
             <li>A rechargeable battery for sustainability</li>
-            <li>Data storage on an SD card with automatic uploads to our website when internet connectivity is available</li>
+            <li>Data storage on an SD card with automatic uploads when internet connectivity is available</li>
         </ul>
 
         <!-- Concept 1 -->
         <div class="concept">
             <h3 class="concept-header">Concept 1: SIREN Fire Alarm</h3>
             <p>Description: Designed for campsites, this device monitors fire size and alerts users if it becomes too large.</p>
-           <img src="pic/FireAlarm.png" alt="SIREN Fire Alarm Concept">
+            <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/raw/d214aa7c7b0850ce36a2d7efeff501148499e54a/pic/stick1.JPG" alt="SIREN Fire Alarm Concept">
             <p>Key Features: Powered by a 9V battery, user-friendly, data logging on an SD card with weather information cloud upload when Wi-Fi is available, and a metal casing with an integrated temperature sensor for enhanced environmental monitoring.</p>
         </div>
 
@@ -104,10 +118,16 @@
         <!-- Concept 3 -->
         <div class="concept">
             <h3 class="concept-header">Concept 3: Mounted S.I.R.E.N.</h3>
-            <img src="pic/WeatherAlertWithExtensions.png" alt="Mounted S.I.R.E.N. Concept">
             <p>Description: A stationary device designed for campsite installation, offering alerts for incoming storms or environmental hazards.</p>
+            <img src="pic/WeatherAlertWithExtensions.png" alt="Mounted S.I.R.E.N. Concept">
             <p>Key Features: A 6-foot extendable pole for optimal sensor placement, a display for real-time sensor data, ensuring users are well-informed of surrounding conditions.</p>
         </div>
     </div>
+
+    <footer>
+        <!-- No contact information -->
+    </footer>
+
+    <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Logo" width="150" height="150">
 </body>
 </html>
