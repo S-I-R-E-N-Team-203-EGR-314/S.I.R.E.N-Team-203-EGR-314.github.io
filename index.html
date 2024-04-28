@@ -20,20 +20,20 @@
             padding: 10px; /* Padding for full-width effect */
             border-bottom: #0779e4 3px solid;
             width: 100%; /* Ensures header spans the entire width */
-            display: block; /* Ensures no cut-out */
         }
         .content {
             background-color: white;
             border-radius: 10px; /* Rounded edges for a softer look */
             padding: 20px; /* Padding for spacing within the box */
             margin: 20px; /* Margins to ensure it doesn't touch the edges */
+            text-align: left; /* Aligns everything to the left */
         }
         footer {
             background: #333; /* Matches the header */
-            text-align: center; /* Centers content in the footer */
+            color: #fff;
+            text-align: center; /* Aligns content in the footer */
             padding: 10px; /* Padding for full-width effect */
             width: 100%; /* Ensures footer spans the entire width */
-            display: block; /* Ensures no cut-out */
         }
         .button {
             background-color: #007BFF; /* Blue box for links */
@@ -41,20 +41,20 @@
             text-decoration: none;
             padding: 8px 15px; /* Padding for the blue box */
             border-radius: 8px; /* Rounded corners */
-            transition: color 0.3s ease;
+            margin-bottom: 10px; /* Extra space between boxes */
+            transition: background-color 0.3s ease;
         }
         .button:hover {
             background-color: #0056b3; /* Darker blue on hover */
         }
         .footer-logo {
             max-height: 150px; /* Larger logo size */
-            display: inline-block;
-            margin: 20px auto; /* Centers the logo */
+            margin: 20px auto; /* Centers the logo in the footer */
         }
         .signature-image {
-            display: block; /* Aligned to the left */
-            float: left; /* Floats to the left */
-            margin: 10px 0;
+            display: inline-block; /* Ensures it's aligned properly */
+            float: left; /* Aligns to the left */
+            margin: 10px 0; /* Consistent margin */
         }
     </style>
 </head>
@@ -65,6 +65,7 @@
 
     <div class="content">
         <p>Welcome to the official website of Siren Team 203 for the EGR 314 class. Our project is dedicated to designing an efficient and reliable fire siren system to enhance safety measures in emergency situations. Meet Our Team: Ryan, Kyle, Payton, Abel, and our teacher: Professor Kelly.</p>
+        
         <h3>Team Charter</h3>
         <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
 
@@ -76,14 +77,14 @@
         </ol>
         
         <!-- Signatures image aligned to the left -->
-        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" style="max-width: 100%; height: auto;" class="signature-image">
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" class="signature-image" style="max-width: 100%; height: auto;">
     </div>
 
     <div class="content">
         <h3>Quick Links</h3>
-        <!-- Fire Siren image linked to the video, aligned to the left -->
+        <!-- Fire Siren image linked to the video -->
         <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;" class="signature-image">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" class="signature-image" style="max-width: 100%; height: auto;">
         </a>
         <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
         <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
@@ -97,8 +98,7 @@
     </div>
 
     <footer>
-        <p>2024 Siren Team 203.</p>
-        <!-- Centered footer logo -->
+        <p>2024 Siren Team 203.</p> <!-- Logo centered in the footer -->
         <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo" style="max-height: 150px;">
     </footer>
 </body>
