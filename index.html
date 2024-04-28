@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: 'Roboto', sans-serif;
-            padding: 20px;
+            padding: 0;
+            margin: 0;
             background-color: #F5F5DC; /* Light tan background */
             color: #333;
         }
@@ -19,6 +20,7 @@
             padding: 10px; /* Padding for full-width effect */
             border-bottom: #0779e4 3px solid;
             width: 100%; /* Ensures header spans the entire width */
+            display: block; /* Ensures no cut-out */
         }
         .content {
             background-color: white;
@@ -28,11 +30,11 @@
         }
         footer {
             background: #333; /* Matches the header */
-            text-align: center; /* Aligns content to the center */
+            color: #fff;
+            text-align: left; /* Aligns content to the left */
             padding: 10px; /* Padding for full-width effect */
-            position: relative;
-            bottom: 0;
-            width: 100%; /* Ensures the footer spans the entire width */
+            width: 100%; /* Ensures footer spans the entire width */
+            display: block; /* Ensures no cut-out */
         }
         .button {
             color: #007BFF; /* Blue text for links */
@@ -43,14 +45,16 @@
         .button:hover {
             color: #0056b3;
         }
+        .footer-logo {
+            max-height: 150px; /* Larger logo size */
+            display: inline-block; /* Ensures it's inline with text */
+            margin-left: 10px; /* Slight margin for spacing */
+        }
         img {
             display: block;
             margin: 20px auto; /* Centers the image */
-        }
-        .footer-logo {
-            max-height: 150px; /* Larger logo size */
-            display: block;
-            margin: 20px auto; /* Centers the logo in the footer */
+            width: 150px; /* Ensures appropriate size */
+            height: 150px;
         }
     </style>
 </head>
@@ -71,14 +75,16 @@
             <li>Completing a functioning prototype by April 26th.</li>
         </ol>
         
-        <!-- Re-added image with a link to the video about the chosen design -->
-        <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
-        </a>
+        <!-- Signatures image back in the team charter -->
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" style="max-width: 100%; height: auto;">
     </div>
 
     <div class="content">
         <h3>Quick Links</h3>
+        <!-- Video link with the image -->
+        <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
+        </a>
         <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
         <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
         <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
@@ -93,7 +99,8 @@
 
     <footer>
         <p>2024 Siren Team 203.</p>
-        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo">
+        <!-- Logo on the left in the footer -->
+        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo" style="max-height: 150px;">
     </footer>
 </body>
 </html>
