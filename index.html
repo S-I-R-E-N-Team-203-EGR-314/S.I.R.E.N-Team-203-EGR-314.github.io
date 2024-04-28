@@ -12,11 +12,27 @@
             background-color: #F5F5DC; /* Light tan background */
             color: #333;
         }
-        header, footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1rem 0;
+        header {
+            background: #333; /* Dark background for contrast */
+            color: #fff;
+            text-align: center;
+            padding: 10px; /* Padding for full-width effect */
+            border-bottom: #0779e4 3px solid;
+            width: 100%; /* Ensures header spans the entire width */
+        }
+        .content {
+            background-color: white;
+            border-radius: 10px; /* Rounded edges for a softer look */
+            padding: 20px; /* Padding for spacing within the box */
+            margin: 20px; /* Margins to ensure it doesn't touch the edges */
+        }
+        footer {
+            background: #333; /* Matches the header */
+            text-align: center; /* Aligns content to the center */
+            padding: 10px; /* Padding for full-width effect */
+            position: relative;
+            bottom: 0;
+            width: 100%; /* Ensures the footer spans the entire width */
         }
         .button {
             color: #007BFF;
@@ -28,33 +44,20 @@
         .button:hover {
             color: #0056b3;
         }
-        .card {
-            background-color: white;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 8px;
-        }
-        footer {
-            text-align: center;
-            padding-top: 20px;
-            font-size: 0.8rem;
-        }
-        @media screen and (max-width: 768px) {
-            header, footer {
-                flex-direction: column;
-                text-align: center;
-            }
+        img {
+            display: block;
+            margin: 20px auto; /* Centers the image */
+            width: 150px; /* Larger size for the logo */
+            height: 150px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Siren Team 203 - Fire Siren System Project</h1>
-        <h2>EGR 314 - Embedded System Design</h2>
+        <h1>Siren Team 203 - Fire Siren System Project</h1> <!-- Title in the header -->
     </header>
 
-    <div class="card">
+    <div class="content">
         <p>Welcome to the official website of Siren Team 203 for the EGR 314 class. Our project is dedicated to designing an efficient and reliable fire siren system to enhance safety measures in emergency situations. Meet Our Team: Ryan, Kyle, Payton, Abel, and our teacher: Professor Kelly.</p>
         <h3>Team Charter</h3>
         <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
@@ -68,7 +71,7 @@
         <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Charter Image" style="max-width: 100%; height: auto;">
     </div>
 
-    <div class="card">
+    <div class="content">
         <h3>Quick Links</h3>
         <p><a href="https://www.youtube.com/watch?v=YAdvBfmHnMA" class="button">Watch our Project Overview Video</a></p>
         <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
@@ -84,8 +87,9 @@
     </div>
 
     <footer>
-        <p>2024 Siren 203.</p>
-        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="logo" style="max-height: 60px;">
+        <p>2024 Siren Team 203.</p>
     </footer>
+
+    <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="logo" style="max-height: 150px;"> <!-- Enlarged logo -->
 </body>
 </html>
