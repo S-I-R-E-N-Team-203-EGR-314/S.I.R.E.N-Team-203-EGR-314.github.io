@@ -7,20 +7,38 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f5f5dc; /* Light tan background */
         }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        header {
+            background: #333; /* Dark background for contrast */
+            color: #fff;
             text-align: center;
+            padding: 10px; /* Smaller padding for full-width effect */
+            border-bottom: #0779e4 3px solid;
+            width: 100%; /* Ensures header spans full width */
         }
-        h1 {
-            color: #444;
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+            display: inline-block; /* Ensures it spans the full width */
+        }
+        .content {
+            background-color: #fff; /* White background for content box */
+            border-radius: 10px; /* Rounded edges for a softer look */
+            padding: 20px; /* Padding for spacing within the box */
+            margin: 20px; /* Margins to ensure it doesn't touch the edges */
+        }
+        footer {
+            background: #333; /* Matches the header */
+            text-align: center; /* Aligns content to the center */
+            padding: 10px; /* Padding for full-width effect */
+            position: relative;
+            bottom: 0;
+            width: 100%; /* Ensures the footer spans the entire width */
         }
         .iframe-container {
             overflow: hidden;
@@ -48,17 +66,20 @@
     </style>
 </head>
 <body>
+    <header>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
+    </header>
 
-<div class="container">
-    <h1>Software Proposal</h1>
-    <!-- PDF Embed -->
-    <div class="iframe-container">
-        <iframe src="Software.Proposal.PDF" type="application/pdf"></iframe>
+    <div class="content">
+        <h1>Software Proposal</h1>
+        <div class="iframe-container">
+            <iframe src="githubpic/Software.Proposal.PDF" type="application/pdf"></iframe> <!-- Corrected PDF link -->
+        </div>
+        <a href="index.html" class="return-home">Return to Home Page</a>
     </div>
-    
-    <!-- Return to Home Page Link -->
-    <a href="index.html" class="return-home">Return to Home Page</a>
-</div>
 
+    <footer>
+        <span>© 2024, S.I.R.E.N Team</span>
+    </footer>
 </body>
 </html>
