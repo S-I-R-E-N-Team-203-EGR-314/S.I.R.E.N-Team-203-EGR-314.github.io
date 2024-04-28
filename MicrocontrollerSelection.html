@@ -7,18 +7,37 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5dc; /* Light tan background */
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+        header {
+            background: #333; /* Dark background for contrast */
+            color: #fff;
+            text-align: center;
+            padding: 10px; /* Smaller padding for full-width effect */
+            border-bottom: #0779e4 3px solid;
+            width: 100%; /* Ensures header spans full width */
         }
-        h1, h2 {
-            color: #333;
-        }
-        p, li {
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
             font-size: 16px;
-            line-height: 1.6;
+        }
+        .content {
+            background-color: #fff; /* White background for content box */
+            border-radius: 10px; /* Rounded edges for a softer look */
+            padding: 20px; /* Padding for spacing within the box */
+            margin: 20px; /* Margins to ensure it doesn't touch the edges */
+        }
+        footer {
+            background: #333; /* Matches the header */
+            text-align: center; /* Aligns content to the center */
+            padding: 10px; /* Padding for full-width effect */
+            position: relative;
+            bottom: 0;
+            width: 100%; /* Ensures the footer spans the entire width */
         }
         a {
             color: #007bff;
@@ -27,22 +46,20 @@
         a:hover {
             text-decoration: underline;
         }
-        .back-link {
-            display: inline-block;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            margin-bottom: 20px;
+        img {
+            display: block;
+            margin: 20px auto; /* Centers the image */
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" class="back-link">&laquo; Home</a>
+    <header>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a> <!-- Home link -->
+    </header>
+
+    <div class="content">
         <h1>PIC16F18325T-I/SL Microcontroller</h1>
-        <p>The PIC16F18325T-I/SL is a versatile microcontroller unit (MCU) from Microchip Technology, featuring advanced peripherals and integration capabilities suitable for a wide range of applications. This MCU is part of Microchip's PIC16F family, known for their reliability and performance in embedded systems.</p>
+        <p>The PIC16F18325T-I/SL is a versatile microcontroller unit (MCU) from Microchip Technology, featuring advanced peripherals and integration capabilities suitable for a wide range of applications. This MCU is part of Microchip's PIC16F family, known for its reliability and performance in embedded systems.</p>
         <h2>Key Specifications:</h2>
         <ul>
             <li>Core Processor: PIC</li>
@@ -64,5 +81,9 @@
         <p>Furthermore, the microcontroller's broad operating temperature range guarantees reliable operation across various climatic conditions, making it an ideal choice for diverse applications.</p>
         <p>For more detailed specifications and purchasing options, visit the <a href="https://www.digikey.com/en/products/detail/microchip-technology/PIC16F18325T-I-SL/5286788" target="_blank">Digi-Key product page</a>.</p>
     </div>
+
+    <footer>
+        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Logo" width="150" height="150"> <!-- Logo centered -->
+    </footer>
 </body>
 </html>
