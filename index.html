@@ -30,31 +30,31 @@
         }
         footer {
             background: #333; /* Matches the header */
-            color: #fff;
-            text-align: left; /* Aligns content to the left */
+            text-align: center; /* Centers content in the footer */
             padding: 10px; /* Padding for full-width effect */
             width: 100%; /* Ensures footer spans the entire width */
             display: block; /* Ensures no cut-out */
         }
         .button {
-            color: #007BFF; /* Blue text for links */
+            background-color: #007BFF; /* Blue box for links */
+            color: white; /* White text */
             text-decoration: none;
-            padding: 8px 15px;
+            padding: 8px 15px; /* Padding for the blue box */
+            border-radius: 8px; /* Rounded corners */
             transition: color 0.3s ease;
         }
         .button:hover {
-            color: #0056b3;
+            background-color: #0056b3; /* Darker blue on hover */
         }
         .footer-logo {
             max-height: 150px; /* Larger logo size */
-            display: inline-block; /* Ensures it's inline with text */
-            margin-left: 10px; /* Slight margin for spacing */
+            display: inline-block;
+            margin: 20px auto; /* Centers the logo */
         }
-        img {
-            display: block;
-            margin: 20px auto; /* Centers the image */
-            width: 150px; /* Ensures appropriate size */
-            height: 150px;
+        .signature-image {
+            display: block; /* Aligned to the left */
+            float: left; /* Floats to the left */
+            margin: 10px 0;
         }
     </style>
 </head>
@@ -75,15 +75,15 @@
             <li>Completing a functioning prototype by April 26th.</li>
         </ol>
         
-        <!-- Signatures image back in the team charter -->
-        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" style="max-width: 100%; height: auto;">
+        <!-- Signatures image aligned to the left -->
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" style="max-width: 100%; height: auto;" class="signature-image">
     </div>
 
     <div class="content">
         <h3>Quick Links</h3>
-        <!-- Video link with the image -->
+        <!-- Fire Siren image linked to the video, aligned to the left -->
         <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;" class="signature-image">
         </a>
         <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
         <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
@@ -93,13 +93,12 @@
         <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
         <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
         <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html" class="button">Software Proposal Document</a></p>
-        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/display.html" class="button">Display Data</a></p>
         <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit Our Google Drive</a></p>
     </div>
 
     <footer>
         <p>2024 Siren Team 203.</p>
-        <!-- Logo on the left in the footer -->
+        <!-- Centered footer logo -->
         <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo" style="max-height: 150px;">
     </footer>
 </body>
