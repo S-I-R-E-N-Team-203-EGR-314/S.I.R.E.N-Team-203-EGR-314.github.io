@@ -35,10 +35,9 @@
             width: 100%; /* Ensures the footer spans the entire width */
         }
         .button {
-            color: #007BFF;
+            color: #007BFF; /* Blue text for links */
             text-decoration: none;
             padding: 8px 15px;
-            margin: 0 15px; /* Increase the margin for more spacing between links */
             transition: color 0.3s ease;
         }
         .button:hover {
@@ -47,8 +46,11 @@
         img {
             display: block;
             margin: 20px auto; /* Centers the image */
-            width: 150px; /* Larger size for the logo */
-            height: 150px;
+        }
+        .footer-logo {
+            max-height: 150px; /* Larger logo size */
+            display: block;
+            margin: 20px auto; /* Centers the logo in the footer */
         }
     </style>
 </head>
@@ -68,12 +70,15 @@
             <li>Creating a weather alert device capable of measuring temperature, light levels, detecting fires, and connecting to the internet.</li>
             <li>Completing a functioning prototype by April 26th.</li>
         </ol>
-        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Charter Image" style="max-width: 100%; height: auto;">
+        
+        <!-- Re-added image with a link to the video about the chosen design -->
+        <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
+        </a>
     </div>
 
     <div class="content">
         <h3>Quick Links</h3>
-        <p><a href="https://www.youtube.com/watch?v=YAdvBfmHnMA" class="button">Watch our Project Overview Video</a></p>
         <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
         <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
         <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
@@ -88,8 +93,7 @@
 
     <footer>
         <p>2024 Siren Team 203.</p>
+        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo">
     </footer>
-
-    <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="logo" style="max-height: 150px;"> <!-- Enlarged logo -->
 </body>
 </html>
