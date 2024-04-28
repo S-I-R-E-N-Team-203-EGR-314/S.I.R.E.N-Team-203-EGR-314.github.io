@@ -1,0 +1,68 @@
+#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/i2c2_master.h"
+#include "mcc_generated_files/examples/i2c2_master_example.h"
+#include "mcc_generated_files/eusart.h"
+#include "mcc_generated_files/spi1.h"
+#include <xc.h>
+#include <stdint.h>
+#include <string.h>
+
+volatile uint8_t receivedData;
+uint8_t data;
+uint8_t fwd = 0b11101111; // Assuming this pattern turns the motor on
+uint8_t off = 0b11101100; // Assuming this pattern turns the motor off
+
+void MotorControl(uint8_t command) {
+    CSN_SetLow();
+    data = SPI1_ExchangeByte(command); // Send the command to the motor
+    CSN_SetHigh();
+}
+void EUSADATA(void){
+   EUSART_Receive_ISR();
+            if (EUSART_is_tx_ready()){
+                    EUSART_Write();
+            }
+    
+    }
+void main (void) {
+    SYSTEM_Initialize();
+    SPI1_Initialize();
+    EUSART_Initialize();
+    I2C2_Initialize();
+    EUSART_Receive_ISR();
+
+    INTERRUPT_GlobalInterruptEnable();
+    INTERRUPT_PeripheralInterruptEnable();
+
+    SPI1_Open(SPI1_DEFAULT);
+
+    I2C2_Write1ByteRegister(0x29, 0x80, 0x01);
+    
+  
+
+    uint8_t L1, H1, temp;
+    
+    
+
+    while (1) {
+   EUSART_SetRxInterruptHandler(EUSADATA);
+        // Read light level and temperature
+        L1 = I2C2_Read1ByteRegister(0x29, 0x8A);
+        H1 = I2C2_Read1ByteRegister(0x29, 0x8B);
+        temp = I2C2_Read1ByteRegister(0x4C, 0x00);
+        
+        uint16_t lightLevel = (uint16_t)(L1 << 8 | H1);
+        
+printf("Temp: %4d, Light Levels: %.2f\r", temp, lightLevel);
+__delay_ms(10);
+
+        // Logic to control the motor based on temperature, light level, or button press
+        if ((temp > 10 && lightLevel < 1000)) { // Assuming 0 means button pressed
+            MotorControl(fwd); // Activate motor
+        } else {
+            MotorControl(off); // Deactivate motor
+        }
+
+    }
+
+}
