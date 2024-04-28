@@ -7,31 +7,67 @@
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f5f5dc; /* Light tan background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #333; /* Dark background for contrast */
+            color: #fff;
             text-align: center;
-            margin: 20px;
+            padding: 10px; /* Smaller padding for full-width effect */
+            border-bottom: #0779e4 3px solid;
+            width: 100%; /* Ensures header spans full width */
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        .content {
+            background-color: #fff; /* White background for content box */
+            border-radius: 10px; /* Rounded edges for a softer look */
+            padding: 20px; /* Padding for spacing within the box */
+            margin: 20px; /* Margins to ensure it doesn't touch the edges */
         }
         iframe {
             width: 100%;
             height: 500px; /* Adjust as needed */
             border: none;
         }
-        .home-link {
-            display: inline-block;
-            padding: 10px;
-            background-color: #007bff;
-            color: white;
-            text-decoration: none;
-            font-size: 16px;
-            margin-bottom: 20px;
+        footer {
+            background: #333; /* Matches the header */
+            text-align: center; /* Aligns content to the center */
+            padding: 10px; /* Padding for full-width effect */
+            width: 100%; /* Ensures the footer spans the entire width */
+        }
+        img {
+            display: block;
+            margin: 20px auto; /* Centers the image */
         }
     </style>
 </head>
 <body>
-    <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" class="home-link">Home</a>
-    <h1>Team 203 Project Documents</h1>
-    <h2>Schematic Overview</h2>
-    <iframe src="pic/Team_203_Schematic_V5.pdf" title="Team 203 Schematic V5"></iframe>
-    <h2>Bill of Materials (BOM)</h2>
-    <iframe src="pic/Team%20203%20S.I.R.E.N%20BOM.xlsx%20-%20Sheet1.pdf" title="Team 203 S.I.R.E.N BOM"></iframe>
+    <header>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/">Home</a>
+    </header>
+
+    <div class="content">
+        <h1>Team 203 Project Documents</h1>
+        <h2>Schematic Overview</h2>
+        <iframe src="pic/Team_203_Schematic_V5.pdf" title="Team 203 Schematic V5"></iframe>
+        <h2>Bill of Materials (BOM)</h2>
+        <iframe src="pic/Team%20203%20S.I.R.E.N%20BOM.xlsx%20-%20Sheet1.pdf" title="Team 203 S.I.R.E.N BOM"></iframe>
+        
+        <h2>Design Components</h2>
+        <p>This design includes a temperature sensor, light sensor, motor driver, motor, ESP32, and a microcontroller. The system is designed to activate a motor when the environment is too hot and bright, with power regulated from 9V to 3.3V.</p>
+    </div>
+
+    <footer>
+        <!-- No contact information -->
+    </footer>
+
+    <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Logo" width="150" height="150"> <!-- Your logo with updated path -->
 </body>
 </html>
