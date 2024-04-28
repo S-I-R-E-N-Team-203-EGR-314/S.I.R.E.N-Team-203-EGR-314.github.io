@@ -21,6 +21,13 @@
             border-bottom: #0779e4 3px solid;
             width: 100%; /* Ensures header spans the entire width */
         }
+        .content {
+            background-color: white; /* White box background */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px; /* Padding within the box */
+            margin: 20px; /* Spacing between boxes */
+            text-align: left; /* Aligns content to the left */
+        }
         footer {
             background: #333; /* Matches the header */
             color: #fff;
@@ -43,10 +50,11 @@
         .footer-logo {
             max-height: 150px; /* Larger logo size */
             margin: 20px auto; /* Centers the logo in the footer */
-            display: block; /* Centers the image in the footer */
+            display: block; /* Ensures it's centered */
         }
         .signature-image {
             display: block; /* Aligns the image properly */
+            float: left; /* Aligns to the left */
             margin: 10px 0; /* Consistent margin */
         }
     </style>
@@ -56,41 +64,47 @@
         <h1>Siren Team 203 - Fire Siren System Project</h1> <!-- Title in the header -->
     </header>
 
-    <!-- Team Charter Section -->
-    <h3>Team Charter</h3>
-    <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
+    <!-- Team Charter Section in a white box -->
+    <div class="content">
+        <h3>Team Charter</h3>
+        <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
 
-    <p>Our mission is to provide a device that uses digital technology to provide users with valuable sensory information in an emergency simulation. Our charter includes:</p>
-    <ol>
-        <li>Designing functional subsystems with specific goals.</li>
-        <li>Creating a weather alert device capable of measuring temperature, light levels, detecting fires, and connecting to the internet.</li>
-        <li>Completing a functioning prototype by April 26th.</li>
-    </ol>
+        <p>Our mission is to provide a device that uses digital technology to provide users with valuable sensory information in an emergency simulation. Our charter includes:</p>
+        <ol>
+            <li>Designing functional subsystems with specific goals.</li>
+            <li>Creating a weather alert device capable of measuring temperature, light levels, detecting fires, and connecting to the internet.</li>
+            <li>Completing a functioning prototype by April 26th.</li>
+        </ol>
+    </div>
 
-    <!-- Signatures Section -->
-    <h3>Signatures</h3>
-    <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" class="signature-image" style="max-width: 100%; height: auto;">
+    <!-- Signatures Section in a white box -->
+    <div class="content">
+        <h3>Signatures</h3>
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" class="signature-image" style="max-width: 100%; height: auto;">
+    </div>
 
-    <!-- Quick Links Section -->
-    <h3>Quick Links</h3>
-    <!-- Fire Siren image linked to the video -->
-    <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
-    </a>
+    <!-- Quick Links Section in a white box -->
+    <div class="content">
+        <h3>Quick Links</h3>
+        <!-- Fire Siren image linked to the video -->
+        <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
+        </a>
 
-    <!-- Additional Quick Links -->
-    <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
-    <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software Proposal Document.html" class="button">Software Proposal Document</a></p>
-    <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit Our Google Drive</a></p>
+        <!-- Additional Quick Links -->
+        <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
+        <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
+        <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software Proposal Document.html" class="button">Software Proposal Document</a></p>
+        <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit Our Google Drive</a></p>
+    </div>
 
     <footer>
-        <p>2024 Siren Team 203.</p> <!-- Centered logo in the footer -->
+        <p>2024 Siren Team 203.</p> <!-- Centered footer logo -->
         <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo" style="max-height: 150px;">
     </footer>
 </body>
