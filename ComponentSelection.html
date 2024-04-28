@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,7 @@
         header {
             background: #333;
             color: #fff;
-            padding-top: 30px;
+            padding: 30px;
             min-height: 70px;
             border-bottom: #0779e4 3px solid;
         }
@@ -26,12 +26,122 @@
             font-size: 16px;
             margin-bottom: 20px;
         }
+        .content {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+        }
+        .component-section {
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 20px;
+        }
+        .component-section h2 {
+            color: #333;
+        }
+        .component-section table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .component-section table, .component-section th, .component-section td {
+            border: 1px solid #ddd;
+        }
+        .component-section th, .component-section td {
+            padding: 8px;
+            text-align: left;
+        }
     </style>
 </head>
 <body>
-    <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" class="home-button">Home</a>
-    <h1>Component Selection for S.I.R.E.N. Project</h1>
-    <p>The document shown below is a list of components that was used to power and the product as well as complete tasks that we wanted it to complete.</p>
-    <embed src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/Team%20203%20S.I.R.E.N%20BOMnew.xlsx%20-%20Sheet1.pdf" type="application/pdf" width="1000" height="750">
+    <header>
+        <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/" class="home-button">Home</a>
+        <h1>Component Selection for S.I.R.E.N. Project</h1>
+    </header>
+
+    <div class="content">
+        <p>The document shown below is a list of components that were used to power the product and complete tasks that we wanted it to perform.</p>
+        
+        <embed src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/Team%20203%20S.I.R.E.N%20BOMnew.xlsx%20-%20Sheet1.pdf" type="application/pdf" width="1000" height="750">
+
+        <div class="component-section">
+            <h2>Wind Speed Sensor</h2>
+            <p>Choice: Option 1 (due to budget, simplicity, and smaller form factor)</p>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Within budget (under $60), simple datasheet, analog output, ships faster, smaller form factor.</td>
+                    <td>Not a digital sensor, limited output wires.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="component-section">
+            <h2>Motor Driver</h2>
+            <p>Choice: DRV8213DSGR (due to the motor driver's capacity and programmable capabilities)</p>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Max voltage of 11V, back and forward programmability, detailed datasheet.</td>
+                    <td>Unknown pins (GAINSEL, IPROPI), complex charts.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="component-section">
+            <h2>Motor</h2>
+            <p>Choice: Option 2 (due to the motor's smaller size and compatibility with the design)</p>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Small, detailed datasheet, easy to install.</td>
+                    <td>Shaft may be too small to work with, lacks detailed information in datasheet.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="component-section">
+            <h2>Wifi Module</h2>
+            <p>Choice: Mandatory (ESP 32 due to company's requirement)</p>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Bluetooth and wifi, JTAG and USART pin interfaces, built-in antenna, multi-functionality, secure boot, large memory.</td>
+                    <td>Some pins have usage restrictions, uses complex nomenclature, only one RTC timer, most expensive part.</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="component-section">
+            <h2>Light Sensor</h2>
+            <p>Choice: LTR-329ALS-01 (due to its accurate light sensing capabilities and energy efficiency)</p>
+            <table>
+                <tr>
+                    <th>Pros</th>
+                    <th>Cons</th>
+                </tr>
+                <tr>
+                    <td>Low power consumption, broad range of light detection, power-efficient, compact size.</td>
+                    <td>Limited resolution, potential electromagnetic interference, susceptible to cross-talk.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <footer>
+        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Logo" width="150" height="150">
+    </footer>
 </body>
 </html>
