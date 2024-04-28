@@ -1,0 +1,63 @@
+import serial
+import serial.tools.list_ports  # To check available serial ports
+import matplotlib.pyplot as plt
+from matplotlib.animation import FuncAnimation  # For real-time updates
+import time
+import threading  # For concurrent data reading
+import re  # For regular expressions to extract specific numbers
+
+# Global dictionary to store the latest values
+latest_values = {
+    'light_level': 0,
+    'temperature': 0
+}
+
+# Function to check if a specific port is available
+def is_port_available(port_name):
+    available_ports = [port.device for port in serial.tools.list_ports.comports()]
+    return port_name in available_ports
+
+# Function to read serial data and update the values when a specific pattern is detected
+def read_serial_data(serial_port):
+    try:
+        ser = serial.Serial(serial_port, 9600, timeout=1)  # Configure the serial port
+        pattern = r"Light Level: (\d+), Temperature: (\d+)"  # Regular expression to extract numbers
+
+        while True:
+            if ser.in_waiting > 0:  # If there's data to read
+                lines = ser.read(ser.in_waiting).decode('utf-8', errors='ignore').split("\n")  # Read all lines
+                for line in lines:
+                    match = re.search(pattern, line)
+                    if match:
+                        # Update the light level and temperature values
+                        latest_values['light_level'] = int(match.group(1))
+                        latest_values['temperature'] = int(match.group(2))
+
+            time.sleep(0.5)  # Adjust to control reading frequency
+
+        ser.close()
+    except Exception as e:
+        print(f"Error: {e}")
+
+# Function to update the plot with the latest values
+def update_plot(frame):
+    # Clear the plot
+    plt.cla()
+
+    # Extract the latest light level and temperature
+    light_level = latest_values['light_level']
+    temperature = latest_values['temperature']
+
+    # Plot the current light level and temperature on a white background with black text
+    plt.text(0.5, 0.5, f"Light Level: {light_level}, Temperature: {temperature}",
+             ha='center', va='center', color='black', fontsize=14)  # Black text
+    plt.axis('off')  # Hide axes
+    plt.title("Latest UART Data from COM10", fontsize=16)
+
+# Start the serial reading process in a separate thread
+threading.Thread(target=read_serial_data, args=("COM10",), daemon=True).start()
+
+# Create the plot and set up real-time updates
+plt.figure(figsize=(10, 8))
+animation = FuncAnimation(plt.gcf(), update_plot, interval=1000)  # Update every second
+plt.show()
