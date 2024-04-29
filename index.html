@@ -16,10 +16,35 @@
         header {
             background: #333; /* Dark background for contrast */
             color: #fff;
-            text-align: center;
-            padding: 10px; /* Padding for full-width effect */
+            padding: 10px 0; /* Padding for full-width effect */
             border-bottom: #0779e4 3px solid;
-            width: 100%; /* Ensures header spans the entire width */
+        }
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+        nav {
+            display: block;
+            text-align: center;
+        }
+        nav a.button {
+            background-color: #007BFF; /* Blue box for links */
+            color: white; /* White text */
+            text-decoration: none;
+            padding: 8px 15px; /* Padding for the blue box */
+            border-radius: 8px; /* Rounded corners */
+            margin: 5px; /* Space between buttons */
+            display: inline-block; /* Align buttons in a row */
+        }
+        nav a.button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+        .content {
+            background-color: white; /* White box background */
+            border-radius: 10px; /* Rounded corners */
+            padding: 20px; /* Padding within the box */
+            margin: 20px; /* Spacing between boxes */
+            text-align: left; /* Aligns content to the left */
         }
         footer {
             background: #333; /* Matches the header */
@@ -28,72 +53,57 @@
             padding: 10px; /* Padding for full-width effect */
             width: 100%; /* Ensures footer spans the entire width */
         }
-        .button {
-            background-color: #007BFF; /* Blue box for links */
-            color: white; /* White text */
-            text-decoration: none;
-            padding: 8px 15px; /* Padding for the blue box */
-            border-radius: 8px; /* Rounded corners */
-            margin: 10px 0; /* Extra space between boxes */
-            transition: background-color 0.3s ease;
-        }
-        .button:hover {
-            background-color: #0056b3; /* Darker blue on hover */
-        }
         .footer-logo {
             max-height: 150px; /* Larger logo size */
             margin: 20px auto; /* Centers the logo in the footer */
-            display: block; /* Centers the image in the footer */
-        }
-        .signature-image {
-            display: block; /* Aligns the image properly */
-            margin: 10px 0; /* Consistent margin */
+            display: block; /* Ensures it's centered */
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Siren Team 203 - Fire Siren System Project</h1> <!-- Title in the header -->
+        <!-- Secondary navigation for quick links -->
+        <nav>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/DesignIdeation.html" class="button">Design Ideation</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/HardwareImplementation.html" class="button">Hardware Implementation</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SoftwareImplementation.html" class="button">Software Implementation</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/VerificationTable.html" class="button">Verification Table</a>
+            <a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/FinalPoster.html" class="button">Final Poster</a>
+        </nav>
     </header>
+ <h3>Team Charter</h3>
+        <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
 
-    <!-- Team Charter Section -->
-    <h3>Team Charter</h3>
-    <p>Our mission statement emerged from a brainstorming session focused on the problem we were tasked with: designing a portable weather station that uses an actuator to respond to environmental data. Given our experience with 3D printing and our understanding of motors, we realized that we could create a device specifically designed for emergency warning systems. This led us to develop a mechanism similar to a rapid siren, capable of alerting users to emergencies with efficiency and reliability.</p>
+        <p>Our mission is to provide a device that uses digital technology to provide users with valuable sensory information in an emergency simulation. Our charter includes:</p>
+        <ol>
+            <li>Designing functional subsystems with specific goals.</li>
+            <li>Creating a weather alert device capable of measuring temperature, light levels, detecting fires, and connecting to the internet.</li>
+            <li>Completing a functioning prototype by April 26th.</li>
+        </ol>
+    </div>
 
-    <p>Our mission is to provide a device that uses digital technology to provide users with valuable sensory information in an emergency simulation. Our charter includes:</p>
-    <ol>
-        <li>Designing functional subsystems with specific goals.</li>
-        <li>Creating a weather alert device capable of measuring temperature, light levels, detecting fires, and connecting to the internet.</li>
-        <li>Completing a functioning prototype by April 26th.</li>
-    </ol>
+    <!-- Signatures Section in a white box -->
+    <div class="content">
+        <h3>Signatures</h3>
+        <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" class="signature-image" style="max-width: 100%; height: auto;">
+    </div>
 
-    <!-- Signatures Section -->
-    <h3>Signatures</h3>
-    <img src="https://github.com/S-I-R-E-N-Team-203-EGR-314/S.I.R.E.N-Team-203-EGR-314.github.io/assets/157171278/b6257bd4-5c77-4617-be02-6a08a6ff8b05" alt="Team Signatures" class="signature-image" style="max-width: 100%; height: auto;">
-
-    <!-- Quick Links Section -->
-    <h3>Quick Links</h3>
-    <!-- Fire Siren image linked to the video -->
-    <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
-        <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
-    </a>
-
-    <!-- Additional Quick Links -->
-    <p><a href="User%20Needs%2C%20Benchmarking%2C%20and%20Requirements.html" class="button">User Needs and Requirements</a></p>
-    <p><a href="DesignIdeation.html" class="button">Design Ideation</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/SelectedDesign.html" class="button">Our Chosen Design</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/BlockDiagram.html" class="button">Block Diagram</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/ComponentSelection.html" class="button">Component Selections</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/MicrocontrollerSelection.html" class="button">Microcontroller Selection</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Hardware%20Proposal.html" class="button">Hardware Proposal</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/Software%20Proposal.html" class="button">Software Proposal</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/hardwareimplementation.html" class="button">Hardware Implementation</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/softwareimplementation.html" class="button">Software Implementation</a></p>
-    <p><a href="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/finalposter.html" class="button">Final Poster</a></p>
-     <p><a href="https://drive.google.com/drive/folders/1WxI9KwXmxpbQYfk2oKFxPJ8Cy0x9YktA?usp=sharing" class="button">Visit Our Google Drive</a></p>
-
+    <!-- Quick Links Section in a white box -->
+    <div class="content">
+        <h3>Quick Links</h3>
+        <!-- Fire Siren image linked to the video -->
+        <a href="https://www.youtube.com/watch?v=YAdvBfmHnMA">
+            <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/FireAlarm.png" alt="Fire Siren - Chosen Design" style="max-width: 100%; height: auto;">
+        </a>
     <footer>
-        <p>2024 Siren Team 203.</p> <!-- Centered logo in the footer -->
+        <p>2024 Siren Team 203.</p> <!-- Centered footer logo -->
         <img src="https://s-i-r-e-n-team-203-egr-314.github.io/S.I.R.E.N-Team-203-EGR-314.github.io/pic/SirenLogo-removebg-preview.png" alt="Siren Team Logo" class="footer-logo" style="max-height: 150px;">
     </footer>
 </body>
+</html>
